@@ -1,6 +1,10 @@
 function EsAñoBisiesto(numero) {
-    let resul = true
-    if(numero < 0){resul = false}
+    
+    let resul
+
+    if(resul >= 0 && Number.isInteger(numero)){resul =true}
+    else{ resul = false}
+    
     return resul 
   }
   
